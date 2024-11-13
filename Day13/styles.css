@@ -1,0 +1,62 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+} */
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+/* h2{
+    color: crimson;
+    text-align: center;
+} */
+
+/* .heading{
+    color: chocolate;
+} */
+
+p{
+    font-size: 1rem;
+    background-color: red;
+    text-align: center;
+}
+
+.box{
+    height: 120px;
+    width: 480px;
+    background-color: brown;
+    text-align: center;
+}
+
+#head{
+    color: azure;
+    font-weight: 400;
+    /* font-size: 1em; */
+    font-size: 16px;
+}
+
+#para{
+    background-color: blue;
+}
+
+.meanu{
+    background-color: rgb(24, 84, 137);
+}
+
+
+.meanu > li{
+    list-style-type: none;
+    color: aqua;
+}
+
+a:hover{
+    color: rgb(121, 121, 193);
+}
+
+p::first-line{
+    font-weight: 700;
+}
