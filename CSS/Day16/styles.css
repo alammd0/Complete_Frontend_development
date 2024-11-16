@@ -1,0 +1,30 @@
+p{
+    color: crimson;
+    background-color: black;
+}
+
+.box{
+    height: 320px;
+    width: 320px;
+    background-color: brown;
+    color: white;
+
+    vertical-align:bottom;
+}
+
+
+#bx{
+    text-decoration-line:underline;
+    text-decoration-color: cyan;
+    text-decoration-thickness: 2px;
+    text-decoration-style: dotted;
+
+    text-decoration: dotted 2px underline red;
+
+    text-transform: capitalize;
+    letter-spacing: 5px;
+    line-height: 1.6;
+    word-spacing: 3px;
+    white-space: wrap;
+
+}
