@@ -1,0 +1,26 @@
+.display{
+    background-color:rgb(189, 133, 242);
+    display: inline-block;
+    width: 240px;
+    opacity: 0.6;
+}
+
+
+
+.display:hover{
+    opacity: 1;
+}
+
+.display a {
+    background-color: brown;
+    /* display: inline-block; */
+    /* display: none; */
+}
+
+button{
+    opacity: 0;
+}
+
+button:hover{
+    opacity: 1;
+}
