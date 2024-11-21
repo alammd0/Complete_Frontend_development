@@ -1,0 +1,15 @@
+.box{
+    height: 90px;
+    width: 430px;
+    background-color: blue;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    transition: all 0.5s ease 1s;
+}
+
+.box:hover{
+    width: 30px;
+    margin-right: 12px;
+    /* transition-property: margin-top; */
+}
