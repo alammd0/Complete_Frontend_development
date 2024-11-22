@@ -1,0 +1,25 @@
+.box{
+    height: 230px;
+    width: 200px;
+    background-color: brown;
+    transition: all 0.5s;
+    transform: scale(1, 1.1);
+    margin: 3rem;
+}
+
+.box:hover{
+    transform: translate(1.4rem, 1.2rem);
+
+    transform: translateX(12px);
+
+    transform: translateY(18px);
+    transform: scale(1.1, 1.2);
+
+    transform: skew(180deg, 10deg);
+
+    transform: matrix(a, b, c, d, e, f);
+
+    transform: matrix(1.1, 0, 0, 1.2, 0, 0);
+    
+    transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+}
