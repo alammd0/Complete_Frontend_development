@@ -15,28 +15,27 @@
 .box2{
     height: 120px;
     width: 120px;
-    background-color: blueviolet;
     padding: 12px;
     margin: 12px;
     border-radius: 12px;
-    /* position: absolute; */
+    position: absolute;
     top: 0;
     right: 0;
     left: 45px;
     bottom: 0;
 }
 
-/* .box3{
+.box3{
     background-color: rgb(169, 129, 208);
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
     padding: 12px;
     margin: 12px;
     border-radius: 12px;
     position: fixed;
     top: 70px;
     left: 120px;
-} */
+}
 /* 
 .box4{
     background-color: blue;
