@@ -1,13 +1,13 @@
 .container{
     height: 640px;
-    /* width: 640px; */
+    width: 640px;
     background-color: brown;
     padding: 1rem;
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* align-items:; */
-    /* align-content: space-around; */
+    align-content: space-around;
 }
 
 .container div{
