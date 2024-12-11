@@ -1,0 +1,51 @@
+/* .box p{
+    background-color: rgb(218, 38, 32);
+    color: white;
+}
+
+
+@media screen and (min-width: 768px) {
+    .box p{
+        background-color: blue;
+    }
+} */
+
+
+.container{
+    height: 100vh;
+    background-color: blue;
+    padding: 12px;
+}
+
+.text p{
+    color: white;
+    background-color: brown;
+    padding: 12px;
+}
+
+/* 
+@media (max-width: 480px) {
+    .text p{
+        background-color: chartreuse;
+        font-size: x-large;
+         border-radius: 12px;
+    }
+
+    .grp_btn button{
+        display: flex;
+    }
+} */
+ 
+
+@media (max-width: 768px) {
+    .text p{
+        background-color: rgb(124, 88, 225);
+        font-size: x-large;
+         border-radius: 12px;
+    }
+
+    .grp_btn button{
+        display: flex;
+    }
+}
+
