@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav{
+
+    background-color: #D90429;
+    padding: 12px;
+}
+
+.navBar_container{
+    max-width: 1280px;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo{
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: white;
+    transition: all 0.5s;
+
+}
+
+
+.logo:hover{
+    color: rgb(31, 17, 17);
+    text-shadow: 0px 2px 0px rgba(240, 10, 10, 0.3);
+}
+
+#log {
+	color: #1e1412;
+	font-size: 1.5rem;
+	transition: all 0.5s;
+}
+
+#log:hover {
+	text-shadow: 0px 2px 0px rgba(240, 10, 10, 0.3);
+	color: white;
+}
+
+
+.menu{
+    display: flex;
+    gap: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.hover{
+    color: white;
+    font-size: 1.25rem;
+    transition: all 0.5s;
+    transform: scale(1);
+}
+
+.hover:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    transform: scale(0.9);
+}
+
+/* start hero styling */
+.hero_section{
+    height: 100vh;
+    background-image: url(./home.jpg);
+    background-size: cover;
+}
+
+.hero_container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.hero_text{
+    color: white;
+    padding-left: 2rem;
+    padding-top: 20rem;
+    font-size: 2.5rem;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+
+.hero_text span{
+    color: #D90429;
+}
+
+@media screen and (max-width: 768px) {
+    #home {
+		background-position: center;
+	}
+
+	.hero_text {
+		height: 100vh;
+		color: white;
+		padding-top: 10rem;
+		padding-left: 10px;
+		font-size: 2rem;
+		font-weight: 900;
+	}
+}
